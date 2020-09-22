@@ -1,0 +1,6 @@
+LIBRARY "ProcXPGUI.dll"
+
+EXPORTS
+	VerticalGrad
+	HorizontalGrad
+	HRadialGrad

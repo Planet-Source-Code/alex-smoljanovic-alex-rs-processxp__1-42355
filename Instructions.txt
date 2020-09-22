@@ -1,0 +1,7 @@
+After downloaded and unzipping these files, locate folder GUI DLL, open the Visual C++ Project file, compile the DLL which should write the file to c:\winnt\system32..., or place it in another directory if desired.It is important that ProcessXP is able to locate this dll as it depends on it for part of its GUI.
+
+If you don't have Microsoft Visual C++, then extract the compiled version from the file guicompiled.zip.RENAME (remove ".RENAME") and place it in the system32 directory. ProcessXP doesn't require this file to run, but if it doesn't exit nothing will be drawn properly.
+
+Also, locate folder sndServer, open the project within this folder, compile it. The location of this DLL isn't significant as it is an Active-X dll, once visual basic compiles the dll it will automatically register it's classes.
+
+Thanks, Alex Smoljanovic, Salex Software(c) 2003.
